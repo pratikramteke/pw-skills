@@ -30,7 +30,7 @@ export default function Fame() {
   ];
 
   return (
-    <div>
+    <div className="my-10">
       <h2 className=" text-center my-10 text-5xl text-blue-800 font-bold">
         Hall of fame
       </h2>
@@ -45,6 +45,7 @@ export default function Fame() {
           />
         ))}
       </div>
+      <h3 className="text-center text-gray-500 font-semibold">View More</h3>
     </div>
   );
 }
